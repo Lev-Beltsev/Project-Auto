@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
 body {
@@ -37,6 +37,7 @@ body {
   font-weight: 152px;
   color: #ffffff;
   line-height: 1;
+  
 }
 
 .hero__subtitle {
@@ -50,13 +51,61 @@ body {
 .nav {
   display: flex;
  
+ 
 }
 
 .nav a {
+  
+  margin-right: 274px;
   color: #fff;
   text-decoration: none;
   font-size: 16px;
 }
 
+.nav a:hover {
+
+color:#D95583;
+}
+
+.nav__about {
+display: flex;
+position: static;
 
 
+}
+
+.hero_title {
+  display: flex;
+  margin-top: 100px;
+}
+
+.hero_title_bth {
+margin-bottom: 2300px;
+
+
+}
+
+.main_a {
+
+  color: red;
+}
+
+.main_text { 
+display: flex;
+color: white;
+font-size: 15px;
+display: flex;
+margin-top: 750px;
+position: absolute;
+padding-bottom: 60px;
+margin-left: 213px;
+font-family: Helvetica;
+
+}
+
+.section {
+
+margin-top: 1100px;
+
+
+}
