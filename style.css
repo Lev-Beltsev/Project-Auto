@@ -107,7 +107,7 @@ font-family: Helvetica;
 }
 
 .button { 
-  
+
 width: 200px;
 height: 62px;
 font-size: 20px;
@@ -119,6 +119,15 @@ background-color: #D95583;
 .section {
 
 margin-top: 1100px;
+
+
+}
+
+.section__image {
+
+width: 436px;
+height: 316px;
+padding: 56px;
 
 
 }
