@@ -11,29 +11,17 @@ body {
 
 
 .hero {
-  margin: 82px;  
+  margin:82px;
   height: 0px;            
 }
 
 
-
-.hero__content {
-  align-items: center;
-  gap: 30px;
-         
+.hero__text { 
+font-size: 150px;
 }
 
-.hero__image { 
-float: left;
 
 
-}
-
-.hero__line {
-  width: 90px;
-  height: 10px;
-  background-color: #D95583;
-}
 
 .hero__title {
   font-size: 24px;
@@ -50,16 +38,22 @@ float: left;
 }
 
 
+.hero__image {
+display: flex;
+height: 894px;
+width: 780px;
+float: right;
+margin-right: 140px;
+
+}
+
+
 .nav {
-  display: block;
-  float: right;
-  font-size: 40px;
- 
- 
+  margin-right: 40px;
+  font-size: 20px;
 }
 
 .nav a {
-  
   margin-right: 274px;
   color: #fff;
   text-decoration: none;
@@ -67,26 +61,22 @@ float: left;
 }
 
 .nav a:hover {
-
 color:#D95583;
 }
 
-.hero__image {
-height: 300px;
-width: 300px;
-float: right;
-
-}
 
 .hero_title {
+  font-size: 61px;
   display: flex;
-  margin-top: 100px;
+  margin-top: 300px;
+  color: transparent;
+  background-image: linear-gradient(to left, #003ACE, #CE0094); 
+  background-clip: text;   
 }
 
-.hero_title_bth {
-margin-bottom: 2300px;
 
-
+.main {
+margin: 409px;
 }
 
 .main_text { 
@@ -111,9 +101,13 @@ font-family: Helvetica;
 width: 200px;
 height: 62px;
 font-size: 20px;
-
 color: white;
-background-color: #D95583;
+background-image: linear-gradient(to left, #003ACE, #CE0094); 
+margin-top: 200px;
+}
+
+.button:hover {
+ background: red; 
 }
 
 .section {
