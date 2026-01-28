@@ -11,22 +11,36 @@ body {
 
 
 .hero {
-  margin:82px;
+  justify-content: space-between;
+  margin:50px;
   height: 0px;            
 }
 
+.nav {
+  display: flex;
+  font-size: 20px;
+  float: right;
+}
+
+.nav a {
+  margin-right: 100px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+color:#D95583;
+}
 
 .hero__text { 
 font-size: 150px;
 }
 
-
-
-
-.hero__title {
+.hero__logo {
   font-size: 24px;
   font-weight: 152px;
-  color: #ffffff;
+  color: white;
  
 }
 
@@ -37,31 +51,14 @@ font-size: 150px;
   margin-top: 5px;
 }
 
-
 .hero__image {
-display: flex;
+display: block;
 height: 894px;
 width: 780px;
 float: right;
-margin-right: 140px;
+margin-right: 150px;
+margin-bottom: 70px;
 
-}
-
-
-.nav {
-  margin-right: 40px;
-  font-size: 20px;
-}
-
-.nav a {
-  margin-right: 274px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.nav a:hover {
-color:#D95583;
 }
 
 
@@ -72,28 +69,7 @@ color:#D95583;
   color: transparent;
   background-image: linear-gradient(to left, #003ACE, #CE0094); 
   background-clip: text;   
-}
 
-
-.main {
-margin: 409px;
-}
-
-.main_text { 
-display: flex;
-color: white;
-font-size: 15px;
-display: flex;
-margin-top: 750px;
-position: absolute;
-padding-bottom: 60px;
-margin-left: 213px;
-font-family: Helvetica;
-
-}
-
-.main_text  { 
-  color:red;
 }
 
 .button { 
@@ -104,24 +80,73 @@ font-size: 20px;
 color: white;
 background-image: linear-gradient(to left, #003ACE, #CE0094); 
 margin-top: 200px;
+
 }
 
 .button:hover {
  background: red; 
 }
 
-.section {
+  
+.main {
+padding: 100px;
 
-margin-top: 1100px;
+}
+
+
+
+.main_text { 
+display: block;
+color: whitesmoke;
+font-size: 18px;
+margin-top: 850px;
+margin-left: 213px;
 
 
 }
+
+.main__A {
+
+  color:red;
+}
+
+
+
+
+
+.section {
+
+margin-top: 300px
+
+
+}
+
+.section__market { 
+position: absolute;
+color: transparent;
+background-image: linear-gradient(to left, red, blue); 
+background-clip: text;   
+
+}
+
+
 
 .section__image {
 
 width: 436px;
 height: 316px;
 padding: 56px;
+margin-top: 60px;
 
+}
 
+.footer {
+color: transparent;
+background-image: linear-gradient(to left, #242427, #676767); 
+padding: 300px;
+}
+
+.footer__text {
+color: white;
+line-height: 25px;  
 }
